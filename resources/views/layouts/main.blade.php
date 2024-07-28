@@ -20,9 +20,41 @@
         <script src="/js/script.js"></script>        
     </head>
     <body>
-        @yield('content')        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <idv class="collapse navbar-collapse" id="navbar">
+                    <a href="/" class="navbar-brand">
+                        <img src="/img/logo.svg" alt="Imagem de evento">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/events/create" class="nav-link">Criar Eventos</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Cadastrar</a>
+                        </li>
+                    </ul>
+                </idv>
+            </nav>
+        </header>
+        @yield('content')     
+        <footer>
+            <p>Celebrart &copy; 2024</p>
+        </footer>   
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
-    <footer>
-        <p>Celebrart &copy; 2024</p>
-    </footer>
+    
 </html>
