@@ -142,3 +142,21 @@ footer p{
     margin-bottom: 0;
 }
 
+/*EVENT CRESTAE PAGE*/
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+#event-creat-container input,
+#event-creat-container select,
+#event-creat-container textarea{
+    font-size: 12px;
+}
+
+.form-group{
+    padding-bottom: 15px;
+}
