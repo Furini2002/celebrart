@@ -2,8 +2,9 @@
 @section('title','Celebrart')
 @section('content')
 
-    <h1>dsddd</h1>  
-    <img src="/img/img-event-2.jpg" alt="">    
+    @foreach($events as $event)
+        <p>{{ $event->title}} -- {{ $event->description }}</p>
+    @endforeach    
     
 @endsection
 
