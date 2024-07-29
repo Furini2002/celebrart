@@ -22,31 +22,24 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
-                <idv class="collapse navbar-collapse" id="navbar">
+                <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
                         <img src="/img/logo.svg" alt="Imagem de evento">
-                    </a>
+                    </a>                    
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="/" class="nav-link">Eventos</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
+                        </li>                    
                         <li class="nav-item">
                             <a href="/events/create" class="nav-link">Criar Eventos</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
+                        </li>                   
                         <li class="nav-item">
                             <a href="/" class="nav-link">Entrar</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
+                        </li>                    
                         <li class="nav-item">
                             <a href="/" class="nav-link">Cadastrar</a>
-                        </li>
-                    </ul>
-                </idv>
+                        </li>                                      
+                </div>
             </nav>
         </header>
         @yield('content')     

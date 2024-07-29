@@ -8,7 +8,7 @@ use App\Models\Event;
 class EventController extends Controller
 {
     public function index(){
-        $events = Event::all();//resgata todos os dados da tabela
+        $events = Event::all();//resgata todos os dados da tabela. Tipo um select * from ....
 
         return view('welcome', ['events' => $events]);
     }
