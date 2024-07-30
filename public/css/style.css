@@ -212,3 +212,12 @@ footer p{
 .col-md-10 .row{
     margin-top: 40px;
 }
+
+.items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.items-list li{
+    display: flex;
+}
