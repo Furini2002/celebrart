@@ -235,3 +235,7 @@ footer p{
 .dashboard-events-container th{
     width: 25%; 
 }
+
+#form-delete{
+    display: inline-block;  
+}
