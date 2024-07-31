@@ -239,3 +239,10 @@ footer p{
 #form-delete{
     display: inline-block;  
 }
+
+/*edit*/
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
