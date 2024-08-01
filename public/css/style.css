@@ -227,6 +227,15 @@ footer p{
 }
 
 /*dashboard*/
+#info-container .alredy-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    width: 275px;
+}
+
 .dashboard-title-container{
     margin-bottom: 30px;
     margin-top: 30px;
@@ -246,3 +255,4 @@ footer p{
     width: 100px;
     margin-top: 20px;
 }
+

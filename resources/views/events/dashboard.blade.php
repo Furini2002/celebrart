@@ -60,7 +60,13 @@
                 <td scope="col"><a href="/events/{{$event->id}}">{{$event->title}}</a></td>
                 <td>{{count($event->users)}}</td>
                 <td>
-                    <a href="">Sair do evento</a>                           
+                    <form action="events/leave/{{$event->id}}" method="POST"></form> 
+                    @csrf
+                    @method("DELETE")
+                    <button class="btn btn-danger delete-btn">
+                        <ion-icon name="trash-outline"></ion-icon>
+                        Sair do evento
+                    </button>
                 </td>
             </tr>
             @endforeach
